@@ -17,3 +17,6 @@ Urban Mobility Optimizer using Neo4j and LLM orchestration. Provides intelligent
 - Fully agentic AI pipeline (Planner → Agents → Orchestrator)
 - GraphRAG-based explanations grounded in city graph context
 - Interactive Streamlit dashboard with charts and maps
+
+# Technologies Used:
+- Python, Streamlit, Neo4j, Ollama (Gemma), OpenStreetMap/OSMnx, Open-Meteo API, Matplotlib`
