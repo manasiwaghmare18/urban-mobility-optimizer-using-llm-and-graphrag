@@ -20,3 +20,11 @@ Urban Mobility Optimizer using Neo4j and LLM orchestration. Provides intelligent
 
 # Technologies Used:
 - Python, Streamlit, Neo4j, Ollama (Gemma), OpenStreetMap/OSMnx, Open-Meteo API, Matplotlib`
+
+## Urban Mobility Optimizer helps users in Hyderabad choose the best way to travel by comparing car, bus, and metro options using real city data.
+
+## The system uses a graph database (Neo4j) to understand road connections, nearby transport stops, and city structure before calculating distance, cost, and travel time.
+
+## AI pipeline runs multiple agents (route, weather, cost, transport) that work independently and are coordinated by an orchestrator to analyze the journey step by step.
+
+## Using LLM and GraphRAG, the project generates clear explanations based on city graph context and shows results through an interactive Streamlit dashboard with maps and charts.
