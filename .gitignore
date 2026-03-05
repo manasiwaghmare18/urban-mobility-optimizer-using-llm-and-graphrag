@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+.streamlit/secrets.toml
+
+# API Keys
+config/settings.py
+
+# system files
+.DS_Store
+Thumbs.db
