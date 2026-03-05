@@ -1,12 +1,12 @@
-##🚦Urban Mobility Optimizer using LLM and GraphRAG
+# 🚦Urban Mobility Optimizer using LLM and GraphRAG
 
-📌 Project Overview
+# 📌 Project Overview
 
 The Urban Mobility Optimizer using LLM and GraphRAG is an intelligent urban travel analysis system that helps users choose the most suitable transportation option within a city environment, specifically Hyderabad.
 
 Traditional navigation systems only provide route suggestions and estimated travel time. However, they do not explain why one transport option is better than another. This project addresses that gap by integrating Graph Databases, Agent-based AI architecture, and Large Language Models (LLMs) to generate explainable travel recommendations.
 
-The system evaluates multiple factors including:
+# The system evaluates multiple factors including:
 
 Route distance
 
@@ -20,7 +20,7 @@ Weather conditions
 
 By combining GraphRAG and LLM reasoning, the system generates clear, data-driven insights that help users make better transportation decisions.
 
-🎯 Problem Statement
+# 🎯 Problem Statement
 
 Urban commuters often choose transportation modes without structured comparison of cost, time, or availability.
 
@@ -34,7 +34,7 @@ Provide limited decision support
 
 This project solves this problem by creating a system that performs multi-factor travel analysis and generates explainable recommendations using AI.
 
-🚀 Key Features
+# 🚀 Key Features
 
 Graph-based shortest path computation using Neo4j
 
@@ -56,14 +56,14 @@ Cost vs Travel Time comparison visualization
 
 Map-based route display
 
-🧠 System Architecture
+# 🧠 System Architecture
 
 The system follows a Fully Agentic AI Architecture where different agents handle specialized tasks.
 
-User Input (Streamlit UI)
+# User Input (Streamlit UI)
         │
         ▼
-Orchestrator Agent
+# Orchestrator Agent
         │
         ├── Route Agent
         │       → Computes shortest path using Neo4j
@@ -81,11 +81,11 @@ Orchestrator Agent
         │       → Retrieves graph context from Neo4j
         │
         ▼
-LLM (Gemma via Ollama)
+# LLM (Gemma via Ollama)
         │
         ▼
-Explainable Transport Recommendation
-🗂 Project Structure
+# Explainable Transport Recommendation
+# 🗂 Project Structure
 project/
 │
 ├── agents/                      # AI agents
@@ -116,46 +116,29 @@ project/
 ├── test_agents.py
 ├── test_agents_stepwise.py
 └── test_weather_mapping.py
-🛠 Technologies Used
-Programming Language
+# 🛠 Technologies Used
+# Programming Language:
+- Python
+- Graph Database
+- Neo4j
+- AI / LLM
+- Ollama
+- Gemma Model
+- Data Processing
+- Pandas
+- OSMnx
+- NetworkX
+- Visualization
+- Matplotlib
+- Streamlit
 
-Python
+# APIs
+- OpenStreetMap (Road network data)
+- Open-Meteo API (Weather data)
 
-Graph Database
+# 📦 Requirements
 
-Neo4j
-
-AI / LLM
-
-Ollama
-
-Gemma Model
-
-Data Processing
-
-Pandas
-
-OSMnx
-
-NetworkX
-
-Visualization
-
-Matplotlib
-
-Frontend
-
-Streamlit
-
-APIs
-
-OpenStreetMap (Road network data)
-
-Open-Meteo API (Weather data)
-
-📦 Requirements
-
-Create a file called requirements.txt
+# Create a file called requirements.txt
 
 streamlit
 pandas
@@ -167,7 +150,7 @@ osmnx
 networkx
 geopandas
 
-Install dependencies:
+# Install dependencies:
 
 pip install -r requirements.txt
 ⚙️ Setup Instructions
@@ -177,7 +160,7 @@ cd urban-mobility-optimizer
 2️⃣ Create Virtual Environment
 python -m venv venv
 
-Activate environment:
+# Activate environment:
 
 Windows
 
@@ -190,7 +173,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 4️⃣ Install Neo4j
 
-Download Neo4j Desktop
+# Download Neo4j Desktop
 
 Create a database and update credentials in:
 
@@ -205,7 +188,7 @@ NEO4J_DATABASE = "projectdb"
 
 Start the Neo4j database before running the application.
 
-5️⃣ Load Graph Data
+# 5️⃣ Load Graph Data
 
 Run the graph ingestion script:
 
@@ -213,7 +196,7 @@ python run_graph_load.py
 
 This script loads road network and transport data into Neo4j.
 
-6️⃣ Install Ollama
+# 6️⃣ Install Ollama
 
 Download Ollama from:
 
@@ -222,15 +205,15 @@ https://ollama.com
 Pull the Gemma model:
 
 ollama pull gemma3
-7️⃣ Run the Application
+# 7️⃣ Run the Application
 streamlit run ui/app.py
 
-Open browser:
+# Open browser:
 
 http://localhost:8501
 📊 Example Output
 
-The system displays:
+# The system displays:
 
 Route distance
 
@@ -248,7 +231,7 @@ Cost vs Time visualization chart
 
 Map showing selected route
 
-🔮 Future Improvements
+# 🔮 Future Improvements
 
 Possible enhancements include:
 
@@ -262,22 +245,13 @@ Personalized travel recommendations
 
 Voice-based interface
 
-👨‍💻 Authors
+# 👨‍💻 Authors
 
 Mansi Omprakash Waghmare
-
-Bhavya Jain
-
-Yash Ashok Ambildhuke
-
-Komuravelli Sai Ashrith
-
 PG-DBDA
 C-DAC Hyderabad
 
-📌 GitHub Repository Information
-
-Suggested repository description:
+# 📌 GitHub Repository Information
 
 Intelligent Urban Travel Decision System using Graph Databases, Agentic AI, and LLM-powered GraphRAG for explainable mobility recommendations.
 
