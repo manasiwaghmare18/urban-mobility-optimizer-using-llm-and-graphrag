@@ -328,26 +328,6 @@ C-DAC Hyderabad
 
 ---
 
-# 📌 GitHub Repository Information
-
-Suggested repository description:
-
-> Intelligent Urban Travel Decision System using Graph Databases, Agentic AI, and LLM-powered GraphRAG for explainable mobility recommendations.
-
-Suggested repository topics/tags:
-
-```
-graph-database
-neo4j
-llm
-graphrag
-streamlit
-python
-agentic-ai
-urban-mobility
-data-science
-smart-city
-```
 
 
 
