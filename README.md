@@ -57,7 +57,7 @@ This project solves this problem by creating a system that performs **multi-fact
 
 # 🧠 System Architecture
 
-The system follows a **Fully Agentic AI Architecture** where different agents handle specialized tasks.
+The system follows a **Architecture** where different agents handle specialized tasks.
 
 ```
 User Input (Streamlit UI)
@@ -94,7 +94,7 @@ Explainable Transport Recommendation
 ```
 project/
 │
-├── agents/                      # AI agents
+├── agents/                      
 │   ├── route_agent.py
 │   ├── weather_agent.py
 │   ├── cost_agent.py
