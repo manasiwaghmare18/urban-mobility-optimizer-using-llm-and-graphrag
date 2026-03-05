@@ -7,7 +7,6 @@
 ![License](https://img.shields.io/badge/License-Academic-lightgrey)
 
 ---
-
 # 📌 Project Overview
 
 The **Urban Mobility Optimizer using LLM and GraphRAG** is an intelligent urban travel analysis system that helps users choose the most suitable transportation option within a city environment, specifically **Hyderabad**.
